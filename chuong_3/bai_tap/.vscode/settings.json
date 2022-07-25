@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "xstring": "cpp",
+        "istream": "cpp",
+        "ios": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xutility": "cpp",
+        "string": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp"
+    }
+}
