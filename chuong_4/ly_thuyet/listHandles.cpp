@@ -96,8 +96,8 @@ void ThemNode_p_VaoSauNode_q(LIST& l, NODE* p)
 			if (q->data == k->data)
 			{
 				NODE* h = khoiTaoNode(p->data); // khoi tao node h má»›i Ä‘á»ƒ thÃªm vÃ o sau node q , h lÃ  copy má»—i láº§n cháº¡y loop cá»§a p
-				NODE* g = k->pNext; // g trá» Ä‘áº¿n node sau node q 
-				h->pNext = g; // b1: Táº¡o má»‘i liÃªn káº¿t tá»« node h Ä‘áº¿n node g 
+				// NODE* g = k->pNext; // g trá» Ä‘áº¿n node sau node q 
+				h->pNext = k->pNext; // b1: Táº¡o má»‘i liÃªn káº¿t tá»« node h Ä‘áº¿n node g 
 				// Ä‘áº¿n node náº±m sau node q <=> cÅ©ng chÃ­nh lÃ  táº¡o má»‘i liÃªn káº¿t tá»« node h 
 				k->pNext = h; // BÆ°á»›c 2:Táº¡o má»‘i liÃªn káº¿t tá»« node q Ä‘áº¿n node h <=> chÃ­nh lÃ  node k Ä‘áº¿n node h
 
@@ -139,7 +139,6 @@ void xoaCuoi(LIST& l)
 			delete l.pTail;
 			k->pNext = NULL; // cho con tro cua node ke cuoi tro den NULL
 			l.pTail = k; // cap nhat lai l.pTail
-			return;
 		}
 	}
 }
@@ -205,7 +204,6 @@ void quickSort(LIST& l)
 	}
 	else
 		l.pTail = pivot; // neu khong co danh sach l1, l2 thi head === Tail === pivot
-
 }
 
 void Menu(LIST& l)

@@ -43,6 +43,7 @@ void themVaoDau(LIST &l, NODE *p )
 	if(l.pHead == NULL)
 	{
 		l.pHead  = l.pTail = p; // node dau cung chinh la node cuoi va la p
+		// ba node cùng một địa chỉ
 	}
 	else
 	{
