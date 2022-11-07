@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\DS&Da\baitapnhomll\baitapnhomll\Source.cpp(119,23): warning C4018: '<': signed/unsigned mismatch
+D:\DS&Da\baitapnhomll\baitapnhomll\Source.cpp(132,23): warning C4018: '<': signed/unsigned mismatch
+  baitapnhomll.vcxproj -> D:\DS&Da\baitapnhomll\Debug\baitapnhomll.exe
