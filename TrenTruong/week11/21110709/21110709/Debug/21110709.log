@@ -1,0 +1,4 @@
+﻿test.obj : error LNK2005: "struct Threaded * __cdecl build_thread_tree_inorder(void)" (?build_thread_tree_inorder@@YAPAUThreaded@@XZ) already defined in 21110709.obj
+test.obj : error LNK2005: "struct UnThreaded * __cdecl build_unthread_tree(void)" (?build_unthread_tree@@YAPAUUnThreaded@@XZ) already defined in 21110709.obj
+test.obj : error LNK2005: _main already defined in 21110709.obj
+D:\DS&Da\week11\21110709\Debug\21110709.exe : fatal error LNK1169: one or more multiply defined symbols found

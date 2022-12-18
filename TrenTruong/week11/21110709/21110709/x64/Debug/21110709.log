@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\DS&Da\week11\21110709\21110709\test.cpp(150,9): warning C4101: 'data': unreferenced local variable
+  21110709.vcxproj -> D:\DS&Da\week11\21110709\x64\Debug\21110709.exe
